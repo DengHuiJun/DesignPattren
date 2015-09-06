@@ -17,7 +17,8 @@ public class Main {
 //        testAbstractFactory();
 //        testBuilder();
 //        testPrototype();
-        testAdapter();
+//        testAdapter();
+        testBridge();
     }
 
     public static void testFactory() {
@@ -60,5 +61,13 @@ public class Main {
 
     public static void testFlyweight() {
 
+    }
+
+    public static void testBridge() {
+        Bridge.Shape redCircle = new Bridge.Circle(100,100, 10, new Bridge.RedCircle());
+        Bridge.Shape greenCircle = new Bridge.Circle(100,100, 10, new Bridge.GreenCircle());
+
+        redCircle.draw();
+        greenCircle.draw();
     }
 }
