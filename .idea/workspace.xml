@@ -2,24 +2,137 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15363eb0-d97d-4fdc-8b55-f819af8e5517" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/BinaryObserver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Circle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/DecoratorPatternDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/HexaObserver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/Observer.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/ObserverPatternDemo.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/OctalObserver.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Rectangle.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/RedShapeDecorator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Shape.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/ShapeDecorator.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Observer/Subject.class" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/BinaryObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/HexaObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/Observer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/OctalObserver.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Observer/Subject.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/AbstractLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ChainPatternDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ConsoleLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ErrorLogger.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/FileLogger.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/AbstractFactoty.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/Blue.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/Color.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/ColorFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/FactoryProducer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/Red.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/AbstractFactory/Yellow.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/AdvancedMediaPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/AudioPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/MediaAdapter.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/MediaPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/Mp4Player.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Adapter/VlcPlayer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Bridge/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Bridge/DrawAPI.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Bridge/GreenCircle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Bridge/RedCircle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Bridge/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Bottle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Burger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/ChickenBurger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Coke.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/ColdDrink.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Meal.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/MealBuilder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Packing.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Pepsi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/VegBurger.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Builder/Wrapper.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/DecoratorPatternDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/RedShapeDecorator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Decorator/ShapeDecorator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Factory/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Factory/Rect.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Factory/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Factory/ShapeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Factory/Tri.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Flyweight/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Flyweight/FlyweightDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Flyweight/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Flyweight/ShapeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/BinaryObserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/HexaObserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/Observer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/ObserverPatternDemo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/OctalObserver.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Observer/Subject.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Prototype/Circle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Prototype/Rectangle.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Prototype/Shape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Prototype/ShapeCache.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Prototype/Square.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonFive$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonFive$SingleTonHolder.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonFive.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonFour.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonOne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonThree.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/DesignPattren/SingleTon/SingleTonTwo.class" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/AbstractFactoty.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractFactoty.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Blue.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Blue.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Color.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Color.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/ColorFactory.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/ColorFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/FactoryProducer.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/FactoryProducer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Red.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Red.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/AbstractFactory/Yellow.java" afterPath="$PROJECT_DIR$/src/Creational/AbstractFactory/Yellow.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/AdvancedMediaPlayer.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/AdvancedMediaPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/AudioPlayer.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/AudioPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/MediaAdapter.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/MediaAdapter.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/MediaPlayer.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/MediaPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/Mp4Player.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/Mp4Player.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Adapter/VlcPlayer.java" afterPath="$PROJECT_DIR$/src/Structural/Adapter/VlcPlayer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bridge/Circle.java" afterPath="$PROJECT_DIR$/src/Structural/Bridge/Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bridge/DrawAPI.java" afterPath="$PROJECT_DIR$/src/Structural/Bridge/DrawAPI.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bridge/GreenCircle.java" afterPath="$PROJECT_DIR$/src/Structural/Bridge/GreenCircle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bridge/RedCircle.java" afterPath="$PROJECT_DIR$/src/Structural/Bridge/RedCircle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Bridge/Shape.java" afterPath="$PROJECT_DIR$/src/Structural/Bridge/Shape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Bottle.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Bottle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Burger.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Burger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/ChickenBurger.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/ChickenBurger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Coke.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Coke.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/ColdDrink.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/ColdDrink.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Item.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Item.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Meal.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Meal.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/MealBuilder.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/MealBuilder.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Packing.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Packing.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Pepsi.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Pepsi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/VegBurger.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/VegBurger.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Builder/Wrapper.java" afterPath="$PROJECT_DIR$/src/Creational/Builder/Wrapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Circle.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/DecoratorPatternDemo.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/DecoratorPatternDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Rectangle.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/RedShapeDecorator.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/RedShapeDecorator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/Shape.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/Shape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Decorator/ShapeDecorator.java" afterPath="$PROJECT_DIR$/src/Structural/Decorator/ShapeDecorator.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Circle.java" afterPath="$PROJECT_DIR$/src/Creational/Factory/Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Rect.java" afterPath="$PROJECT_DIR$/src/Creational/Factory/Rect.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Shape.java" afterPath="$PROJECT_DIR$/src/Creational/Factory/Shape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/ShapeFactory.java" afterPath="$PROJECT_DIR$/src/Creational/Factory/ShapeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Factory/Tri.java" afterPath="$PROJECT_DIR$/src/Creational/Factory/Tri.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Flyweight/Circle.java" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Flyweight/FlyweightDemo.java" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/FlyweightDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Flyweight/Shape.java" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/Shape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Flyweight/ShapeFactory.java" afterPath="$PROJECT_DIR$/src/Structural/Flyweight/ShapeFactory.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/BinaryObserver.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/BinaryObserver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/HexaObserver.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/HexaObserver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/Observer.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/Observer.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/ObserverPatternDemo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/OctalObserver.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/OctalObserver.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Observer/Subject.java" afterPath="$PROJECT_DIR$/src/Behavioral/Observer/Subject.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Prototype/Circle.java" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Circle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Prototype/Rectangle.java" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Rectangle.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Prototype/Shape.java" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Shape.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Prototype/ShapeCache.java" afterPath="$PROJECT_DIR$/src/Creational/Prototype/ShapeCache.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/Prototype/Square.java" afterPath="$PROJECT_DIR$/src/Creational/Prototype/Square.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SingleTon/SingleTonFive.java" afterPath="$PROJECT_DIR$/src/Creational/SingleTon/SingleTonFive.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SingleTon/SingleTonFour.java" afterPath="$PROJECT_DIR$/src/Creational/SingleTon/SingleTonFour.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SingleTon/SingleTonOne.java" afterPath="$PROJECT_DIR$/src/Creational/SingleTon/SingleTonOne.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SingleTon/SingleTonThree.java" afterPath="$PROJECT_DIR$/src/Creational/SingleTon/SingleTonThree.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/SingleTon/SingleTonTwo.java" afterPath="$PROJECT_DIR$/src/Creational/SingleTon/SingleTonTwo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DesignPattren/Main.class" afterPath="$PROJECT_DIR$/out/production/DesignPattren/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="$PROJECT_DIR$/src/Main.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="DesignPattren.iws" />
@@ -42,68 +155,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Subject.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Subject.java">
+      <file leaf-file-name="AbstractLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/AbstractLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+              <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#196#206#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-                <element signature="e#288#289#0" expanded="true" />
-                <element signature="e#435#436#0" expanded="true" />
-                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#361#362#0" expanded="true" />
+                <element signature="e#405#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinaryObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/BinaryObserver.java">
+      <file leaf-file-name="ConsoleLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ConsoleLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-              <folding />
+              <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+              <folding>
+                <element signature="e#169#170#0" expanded="true" />
+                <element signature="e#203#204#0" expanded="true" />
+                <element signature="e#261#262#0" expanded="true" />
+                <element signature="e#335#336#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OctalObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/OctalObserver.java">
+      <file leaf-file-name="ErrorLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ErrorLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-              <folding />
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding>
+                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#199#200#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HexaObserver.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/HexaObserver.java">
+      <file leaf-file-name="FileLogger.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/FileLogger.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding />
+              <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="38" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#197#198#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+                <element signature="e#317#318#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ObserverPatternDemo.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java">
+      <file leaf-file-name="ChainPatternDemo.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ChainPatternDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42281878">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.13658537">
+              <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -131,11 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/abstractfactory/Blue.java" />
-        <option value="$PROJECT_DIR$/src/abstractfactory/ColorFactory.java" />
-        <option value="$PROJECT_DIR$/src/abstractfactory/FactoryProducer.java" />
-        <option value="$PROJECT_DIR$/src/abstractfactory/AbstractFactoty.java" />
-        <option value="$PROJECT_DIR$/src/factory/ShapeFactory.java" />
         <option value="$PROJECT_DIR$/src/builder/Item.java" />
         <option value="$PROJECT_DIR$/src/builder/Packing.java" />
         <option value="$PROJECT_DIR$/src/builder/PackWrapper.java" />
@@ -182,6 +291,11 @@
         <option value="$PROJECT_DIR$/src/Observer/HexaObserver.java" />
         <option value="$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java" />
         <option value="$PROJECT_DIR$/src/Observer/BinaryObserver.java" />
+        <option value="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/AbstractLogger.java" />
+        <option value="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ConsoleLogger.java" />
+        <option value="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ErrorLogger.java" />
+        <option value="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/FileLogger.java" />
+        <option value="$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ChainPatternDemo.java" />
       </list>
     </option>
   </component>
@@ -197,9 +311,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
-    <option name="y" value="52" />
+    <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1028" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -224,8 +338,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -234,9 +348,73 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Behavioral" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DesignPattren" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Behavioral" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ChainofResponsibility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,7 +428,7 @@
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.ObserverPatternDemo">
+  <component name="RunManager" selected="Application.ChainPatternDemo">
     <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="Main" />
@@ -269,11 +447,11 @@
     <configuration default="false" name="FlyweightDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Flyweight.*" />
+          <option name="PATTERN" value="Structural.Flyweight.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Flyweight.FlyweightDemo" />
+      <option name="MAIN_CLASS_NAME" value="Structural.Flyweight.FlyweightDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -289,11 +467,31 @@
     <configuration default="false" name="ObserverPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="Observer.*" />
+          <option name="PATTERN" value="Behavioral.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="Observer.ObserverPatternDemo" />
+      <option name="MAIN_CLASS_NAME" value="Behavioral.Observer.ObserverPatternDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="DesignPattren" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="ChainPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="Behavioral.ChainofResponsibility.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="Behavioral.ChainofResponsibility.ChainPatternDemo" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -501,16 +699,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="3">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
       <item index="1" class="java.lang.String" itemvalue="Application.FlyweightDemo" />
       <item index="2" class="java.lang.String" itemvalue="Application.ObserverPatternDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.ChainPatternDemo" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Application.ObserverPatternDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="2" class="java.lang.String" itemvalue="Application.FlyweightDemo" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Application.ChainPatternDemo" />
+        <item index="1" class="java.lang.String" itemvalue="Application.ObserverPatternDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="Application.FlyweightDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -536,18 +736,24 @@
       <option name="project" value="LOCAL" />
       <updated>1441507346773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="加入观察者模式">
+      <created>1441536646338</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1441536646338</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1855" height="1028" extended-state="6" />
-    <editor active="false" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32832617" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -558,8 +764,8 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32832617" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2498618" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.328125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -598,7 +804,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="加入装饰器模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="加入装饰器模式" />
+    <MESSAGE value="加入观察者模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="加入观察者模式" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,46 +816,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Builder/Coke.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Builder/Pepsi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Builder/Meal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="9" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Builder/MealBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71824104">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/Shape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.23941368">
-          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Factory/ShapeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Factory/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -666,41 +837,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prototype/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prototype/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prototype/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prototype/Square.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/Square.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Prototype/ShapeCache.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/Prototype/ShapeCache.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17100978">
           <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
-          <folding>
-            <element signature="e#221#236#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -711,105 +879,84 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/AdvancedMediaPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/AdvancedMediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/MediaPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/MediaPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/VlcPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/VlcPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/Mp4Player.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/Mp4Player.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/MediaAdapter.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/MediaAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DesignPattren/Adapter/AdvancedMediaPlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DesignPattren/Adapter/AudioPlayer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/DesignPattren/Adapter/MediaAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8892508">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Adapter/AudioPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Adapter/AudioPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31711408">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Flyweight/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Flyweight/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/ShapeFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Flyweight/ShapeFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Flyweight/FlyweightDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Flyweight/FlyweightDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.5637584">
           <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/DrawAPI.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/DrawAPI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="4" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
@@ -820,194 +967,210 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.6828859">
           <caret line="70" column="27" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#735#736#0" expanded="true" />
-            <element signature="e#817#818#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/ShapeDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/ShapeDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.45882353">
           <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
-          <folding>
-            <element signature="e#198#199#0" expanded="false" />
-            <element signature="e#250#251#0" expanded="false" />
-            <element signature="e#275#276#0" expanded="false" />
-            <element signature="e#312#313#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/Rectangle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.31764707">
           <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.21176471">
           <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Blue.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/Blue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="37" selection-start-line="8" selection-start-column="37" selection-end-line="8" selection-end-column="37" />
-          <folding>
-            <element signature="e#139#140#0" expanded="true" />
-            <element signature="e#186#187#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/FactoryProducer.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/FactoryProducer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/ColorFactory.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/ColorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="21" column="20" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Color.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/AbstractFactoty.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/AbstractFactoty.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AbstractFactory/Yellow.java">
+    <entry file="file://$PROJECT_DIR$/src/Creational/AbstractFactory/Yellow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/Shape.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/Shape.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/RedCircle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/RedCircle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bridge/GreenCircle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Bridge/GreenCircle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="53" selection-start-line="8" selection-start-column="53" selection-end-line="8" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/Circle.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/Circle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/DecoratorPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/DecoratorPatternDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="22" column="29" selection-start-line="22" selection-start-column="29" selection-end-line="22" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Decorator/RedShapeDecorator.java">
+    <entry file="file://$PROJECT_DIR$/src/Structural/Decorator/RedShapeDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.38387096">
           <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#427#428#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/OctalObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/OctalObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="5" column="43" selection-start-line="5" selection-start-column="43" selection-end-line="5" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/BinaryObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/BinaryObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/HexaObserver.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/HexaObserver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Observer.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/Observer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="0.23902439">
           <caret line="7" column="31" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/Subject.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/Subject.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/Observer/ObserverPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5121951">
+          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/AbstractLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="15" selection-start-line="25" selection-start-column="15" selection-end-line="25" selection-end-column="15" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#196#206#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
-            <element signature="e#288#289#0" expanded="true" />
-            <element signature="e#435#436#0" expanded="true" />
-            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Observer/ObserverPatternDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/FileLogger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42281878">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="38" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#197#198#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+            <element signature="e#317#318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ConsoleLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="13" column="33" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="e#169#170#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#335#336#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ErrorLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding>
+            <element signature="e#165#166#0" expanded="true" />
+            <element signature="e#199#200#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Behavioral/ChainofResponsibility/ChainPatternDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13658537">
+          <caret line="4" column="3" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
           <folding />
         </state>
       </provider>

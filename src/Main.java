@@ -1,11 +1,11 @@
-import AbstractFactory.AbstractFactoty;
-import AbstractFactory.FactoryProducer;
-import Adapter.AudioPlayer;
-import Builder.Meal;
-import Builder.MealBuilder;
-import Factory.Shape;
-import Factory.ShapeFactory;
-import Prototype.ShapeCache;
+import Creational.AbstractFactory.AbstractFactoty;
+import Creational.AbstractFactory.FactoryProducer;
+import Structural.Adapter.AudioPlayer;
+import Creational.Builder.Meal;
+import Creational.Builder.MealBuilder;
+import Creational.Factory.Shape;
+import Creational.Factory.ShapeFactory;
+import Creational.Prototype.ShapeCache;
 
 /**
  * Created by zero on 15-8-28.
@@ -42,12 +42,12 @@ public class Main {
 
     public static void testPrototype() {
         ShapeCache.loadCache();
-        Prototype.Shape clonedShape = (Prototype.Shape) ShapeCache.getShape("1");
+        Creational.Prototype.Shape clonedShape = (Creational.Prototype.Shape) ShapeCache.getShape("1");
         clonedShape.setName("CIRCLE");
         System.out.println("Shape : " + clonedShape.getType() + clonedShape.getName());
-        Prototype.Shape clonedShape2 = (Prototype.Shape) ShapeCache.getShape("1");
+        Creational.Prototype.Shape clonedShape2 = (Creational.Prototype.Shape) ShapeCache.getShape("1");
         System.out.println("Shape : " + clonedShape2.getType() + clonedShape2.getName());
-        Prototype.Shape clonedShape3 = (Prototype.Shape) ShapeCache.getShape("3");
+        Creational.Prototype.Shape clonedShape3 = (Creational.Prototype.Shape) ShapeCache.getShape("3");
         System.out.println("Shape : " + clonedShape3.getType());
     }
 
@@ -64,8 +64,8 @@ public class Main {
     }
 
     public static void testBridge() {
-        Bridge.Shape redCircle = new Bridge.Circle(100,100, 10, new Bridge.RedCircle());
-        Bridge.Shape greenCircle = new Bridge.Circle(100,100, 10, new Bridge.GreenCircle());
+        Structural.Bridge.Shape redCircle = new Structural.Bridge.Circle(100,100, 10, new Structural.Bridge.RedCircle());
+        Structural.Bridge.Shape greenCircle = new Structural.Bridge.Circle(100,100, 10, new Structural.Bridge.GreenCircle());
 
         redCircle.draw();
         greenCircle.draw();
